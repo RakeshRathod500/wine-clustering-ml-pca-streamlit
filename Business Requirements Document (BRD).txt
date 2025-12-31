@@ -1,0 +1,111 @@
+1) Business Requirements Document (BRD)
+
+
+Project Title
+
+Wine Market Segmentation using PCA & Unsupervised Learning
+
+
+
+1. Business Problem Statement
+
+The global wine industry faces increasing complexity due to diverse product portfolios, evolving consumer preferences, and competitive pricing pressures. Traditional segmentation approaches based on region or price bands fail to capture the chemical and sensory diversity of wines, leading to:
+
+Inefficient product positioning
+
+Poor customer targeting
+
+Limited insight into premium vs mass-market differentiation
+
+Business stakeholders require a data-driven segmentation framework that groups wines based on intrinsic chemical characteristics rather than superficial attributes.
+
+
+
+2. Business Objectives
+
+The primary objectives of this initiative are:
+
+Identify natural wine segments based on chemical composition
+
+Enable data-backed product categorization for marketing and pricing
+
+Reduce dimensional complexity while retaining meaningful variance
+
+Provide interpretable and actionable clusters for business users
+
+Deliver insights through a deployable, interactive BI application
+
+
+
+3. Key Business Questions
+
+Can wines be segmented into distinct, meaningful groups using chemical properties alone?
+
+Which wine segments represent premium, balanced, or light profiles?
+
+How does dimensionality reduction improve clarity and decision-making?
+
+Can clustering results be operationalized via a self-service analytics tool?
+
+
+
+4. Scope of Work
+In Scope
+
+Exploratory data analysis of wine chemical attributes
+
+Dimensionality reduction using Principal Component Analysis (PCA)
+
+Unsupervised segmentation using K-Means clustering
+
+Quantitative validation using Silhouette Score & Davies–Bouldin Index
+
+Deployment via Streamlit for business consumption
+
+Out of Scope
+
+Supervised quality prediction
+
+External pricing or customer demographic data
+
+Sensory panel or textual review analysis
+
+
+
+
+5. Success Metrics (Business KPIs)
+KPI	Business Relevance
+Cluster Separation	Indicates distinct product segments
+Cluster Compactness	Ensures internal consistency
+Variance Retained	Preserves decision-relevant information
+Interpretability	Enables stakeholder adoption
+Deployment Readiness	Supports real-world usage
+6. Stakeholders
+
+Product Managers – portfolio rationalization
+
+Marketing Teams – targeted campaigns
+
+Sales Strategy – premium vs value segmentation
+
+Data & BI Teams – analytics enablement
+
+
+
+7. Constraints & Assumptions
+
+Chemical composition is assumed to be a reliable proxy for wine style
+
+Clusters are descriptive, not prescriptive
+
+PCA introduces controlled information loss in exchange for clarity
+
+
+
+8. Expected Business Value
+
+Improved product differentiation
+
+Stronger data storytelling for stakeholders
+
+Foundation for advanced analytics (pricing, recommendation engines)
